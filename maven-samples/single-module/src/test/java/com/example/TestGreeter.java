@@ -40,6 +40,6 @@ public class TestGreeter {
 }
 
 public static void main(String  args[]){
-  print("Hello from Main method")
+  System.out.println("Hello from Main method");
   
 }
