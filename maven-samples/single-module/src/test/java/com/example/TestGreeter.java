@@ -9,6 +9,12 @@ import static org.junit.Assert.assertThat;
 import static org.junit.matchers.JUnitMatchers.containsString;
 
 public class TestGreeter {
+  
+    
+  public static void main(String  args[]){
+  System.out.println("Hello from Main method");
+  
+  }
 
   private Greeter greeter;
 
@@ -31,11 +37,7 @@ public class TestGreeter {
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
   
-  
-  public static void main(String  args[]){
-  System.out.println("Hello from Main method");
-  
-  }
+
 
     @Test
   public void greetShouldIncludeGreetingMessage() {
