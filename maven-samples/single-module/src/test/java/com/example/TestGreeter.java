@@ -38,3 +38,8 @@ public class TestGreeter {
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 }
+
+public static void main(String  args[]){
+  print("Hello from Main method")
+  
+}
